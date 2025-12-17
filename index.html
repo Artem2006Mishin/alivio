@@ -4,12 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="index.css">
-  <link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/png"/>
   <title>Document</title>
 </head>
 <body>
-  <svg>
-    <use href="assets/sprites.svg#logo-icon"></use>
-  </svg>
+<header class="header">
+  <div class="container">
+    <div class="header__wrapper">
+      <svg class="logo">
+        <use href="assets/sprites.svg#logo-icon"></use>
+      </svg>
+
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Why Alivio</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Solutions</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Community</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button class="btn btn--signin" type="button">Sign in</button>
+        <button class="btn" type="button">Start Trial</button>
+      </div>
+    </div>
+  </div>
+</header>
 </body>
 </html>
