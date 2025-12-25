@@ -68,6 +68,9 @@
     font-size: 32px;
     max-width: 350px;
   }
+  .product__wrapper .person-card {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
