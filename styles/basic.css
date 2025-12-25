@@ -23,7 +23,7 @@ a {
   color: unset;
 }
 
-h1, h2, h3, h4, h5, h6, p, figure {
+h1, h2, h3, h4, h5, h6, p, figure, blockquote {
   margin: 0;
 }
 
@@ -63,4 +63,9 @@ h1, h2, h3, h4, h5, h6, p, figure {
 .btn--signin {
   background-color: transparent;
   color: var(--color-black-1);
+}
+
+.player {
+  width: 72px;
+  height: 73px;
 }
