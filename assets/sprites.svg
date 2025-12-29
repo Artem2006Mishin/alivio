@@ -27,5 +27,16 @@
         fill="currentColor"
     />
   </symbol>
+
+  <symbol id="burger-icon" viewBox="0 0 33 18">
+    <line x1="0" y1="2" x2="33" y2="2" stroke="#000" stroke-width="3"/>
+    <line x1="0" y1="9" x2="33" y2="9" stroke="#000" stroke-width="3"/>
+    <line x1="0" y1="16" x2="33" y2="16" stroke="#000" stroke-width="3"/>
+  </symbol>
+
+  <symbol id="cross-icon" viewBox="0 0 25 22">
+    <line x1="0" y1="0" x2="25" y2="22" stroke="#000" stroke-width="3"/>
+    <line x1="0" y1="22" x2="25" y2="0" stroke="#000" stroke-width="3"/>
+  </symbol>
 </svg>
 
